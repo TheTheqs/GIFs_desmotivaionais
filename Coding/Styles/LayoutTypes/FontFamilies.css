@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../Assets/Fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../../Assets/Fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url('../../Assets/Fonts/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../../Assets/Fonts//Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../Assets/Fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../Assets/Fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../../Assets/Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../../Assets/Fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../Assets/Fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../../Assets/Fonts/Quicksand-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../Assets/Fonts/Archivo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../../Assets/Fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+[FontEx="font1"]{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+[FontEx="font2"]{
+    font-family: 'Comfortaa', sans-serif !important;
+}
+
+[FontEx="font3"]{
+    font-family: 'FiraSans', sans-serif !important;
+}
+
+[FontEx="font4"]{
+    font-family: 'Lato', sans-serif !important;
+}
+
+[FontEx="font5"]{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+[FontEx="font6"]{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+[FontEx="font7"]{
+    font-family: 'OpenSans', sans-serif !important;
+}
+
+[FontEx="font8"]{
+    font-family: 'Oswald', sans-serif !important;
+}
+
+[FontEx="font9"]{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+[FontEx="font10"]{
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+[FontEx="font11"]{
+    font-family: 'Archivo', sans-serif !important;
+}
+
+[FontEx="font12"]{
+    font-family: 'RobotoCondensed', sans-serif !important;
+}

@@ -10,7 +10,6 @@ header{
     height: 220px;
     align-items: center;
     justify-content: center;
-    background-color:  #D9D9D9;
     border-radius: 30px;
     font-size: 70px;
 }
@@ -25,7 +24,6 @@ nav{
     top: 30px;
     width: 930px;
     height: 660px;
-    background-color:  #D9D9D9;
     border-radius: 30px;
 }
 ul {
@@ -42,9 +40,8 @@ button{
     height: 100px;
     border-radius: 30px;
     font-size: 50px;
-    background-color: #a7a7a7;
 }
-.backButton{
+#backButton{
     position: absolute;
     left: 2%;
     top: 7%;
@@ -58,6 +55,7 @@ img{
     border: solid white 10px;
     border-radius: 20px;
     position: fixed;
+    top: 250px;
     left: 0%; 
 }
 .infoDiv {
@@ -66,23 +64,23 @@ img{
 }
 .infoDiv p {
     position: absolute;
-    top: 170px;
-    font-size: 60px;
+    top: 220px;
+    font-size: 40px;
     text-align: justify;
     margin-left: 630px;
     margin-right: 20px;
 }
-.contactNav li {
+#contactNav li {
     text-align: left;
     border-bottom: 1px dashed black;
     width: 80%;
     font-size: 40px;
 }
-.contactNav li p {
+#contactNav li p {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-.contactNav ul {
+#contactNav ul {
     position: relative;
     top: -25px
 }
@@ -98,4 +96,20 @@ img{
     width: 500px;
     height: 70px;
     font-size: 30px;
+}
+.fontButton{
+    position: absolute;
+    left: 3%;
+    top: 70%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+.palletButton{
+    position: absolute;
+    left: 9%;
+    top: 70%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
 }

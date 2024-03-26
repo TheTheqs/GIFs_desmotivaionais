@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="fontChange" FontEx="font1" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bora Desmotivar?</title>
     <link rel="stylesheet" href="Styles/Application.css">
+    <link id="pagePallet" rel="stylesheet" href="Styles/LayoutTypes/ElegantMonochrome.css">
+    <link rel="stylesheet" href="Styles/LayoutTypes/FontFamilies.css">
 </head>
 <body id="appbk">
     <header>    
-        <button class="funbutton">[Function]</button>
+        <button id="funbutton" class="layButton">[Function]</button>
         <a href="Index.html">
-            <button class = "backButton">[seta]</button>   
+            <button id = "backButton" class="layButton">[seta]</button>   
         </a>
     </header>
     <div>
@@ -22,6 +24,14 @@
             </p></li>
         </ul>
     </div>
-    <footer><a href="Info.html"><button style="font-size: 30px;">Eu gostaria de entender esse GIF, por favor &#129402</button></a></footer>
+    <footer><a href="Info.html" target="_blank"><button style="font-size: 30px;" class="layButton" FontEx="font1">Eu gostaria de entender esse GIF, por favor &#129402</button></a></footer>
+    
+    <script src="Logic/LayoutControlle.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            layoutController.setClone(); 
+            layoutController.changeButtonFont();           
+        })
+    </script>
 </body>
 </html>

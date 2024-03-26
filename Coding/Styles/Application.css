@@ -54,7 +54,7 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.backButton{
+#backButton{
     position: absolute;
     left: 2%;
     top: 7%;

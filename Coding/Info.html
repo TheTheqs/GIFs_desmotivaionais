@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="fontChange" FontEx="font1" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>&#129299</title>
     <link rel="stylesheet" href="Styles/MainStyle.css">
+    <link id="pagePallet" rel="stylesheet" href="Styles/LayoutTypes/ElegantMonochrome.css">
+    <link rel="stylesheet" href="Styles/LayoutTypes/FontFamilies.css">
 </head>
-<body>
-    <header>
+<body class="layBack">
+    <header class="layTab">
         <h1>Info Title</h1>
-        <a href="Index.html"><button class="backButton">[seta]</button></a>
+        <a href="Index.html"><button id="backButton" class="layButton">[seta]</button></a>
     </header>   
     <div class="infoDiv">
         <img src="Assets/test/teste.gif" alt="teste Info">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis reprehenderit labore impedit quod velit rem? Nisi itaque libero quam voluptatem harum obcaecati dolores, fuga laboriosam praesentium totam eius eligendi delectus aut qui minus adipisci rerum impedit enim voluptas assumenda! Recusandae consequatur distinctio voluptates necessitatibus voluptas error, maxime voluptatem porro consectetur modi cum laboriosam consequuntur, commodi, saepe soluta quaerat eligendi. Officia illo, voluptatum a voluptates eius repellat quia eveniet eaque.</p></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus perferendis reprehenderit labore impedit quod velit rem? Nisi itaque libero quam voluptatem harum obcaecati dolores, fuga laboriosam praesentium totam eius eligendi delectus aut qui minus adipisci rerum impedit enim voluptas assumenda! Recusandae consequatur distinctio voluptates necessitatibus voluptas error, maxime voluptatem porro consectetur modi cum laboriosam consequuntur, commodi, saepe soluta quaerat eligendi. Officia illo, voluptatum a voluptates eius repellat quia eveniet eaque.</p>
+    </div>    
+    <script src="Logic/LayoutControlle.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            layoutController.setClone();
+            layoutController.changeButtonFont();
+        })
+    </script>
 </body>
 </html>

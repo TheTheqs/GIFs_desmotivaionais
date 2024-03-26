@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="fontChange" FontEx="font1" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="Styles/MainStyle.css">
+    <link id="pagePallet" rel="stylesheet" href="Styles/LayoutTypes/ElegantMonochrome.css">
+    <link rel="stylesheet" href="Styles/LayoutTypes/FontFamilies.css">
 </head>
-<body>
-    <header>
-        <a href="Index.html"><button class="backButton">[seta]</button></a>
+<body class="layBack">
+    <header class="layTab">
+        <a href="Index.html"><button id="backButton" class="layButton">[seta]</button></a>
         <h1>Contato</h1>
     </header>
     <div class="paiDiv">
-        <nav  class="contactNav">
+        <nav  id="contactNav" class="layTab">
             <ul>
                 <li><p>Desenvolvido por: Matheqs</p></h2></li>
                 <li><p>Email: Matheqs@gmail.com</p></h2></li>
@@ -21,5 +23,12 @@
             </ul>
         </nav>
     </div>
+    <script src="Logic/LayoutControlle.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            layoutController.setClone();
+            layoutController.changeButtonFont();
+        })
+    </script>
 </body>
 </html>
