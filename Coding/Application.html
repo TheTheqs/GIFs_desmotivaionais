@@ -10,28 +10,31 @@
 </head>
 <body id="appbk">
     <header>    
-        <button id="funbutton" class="layButton">[Function]</button>
+        <button id="funbutton" class="layButton" FontEx = "font1">De novo!</button>
         <a href="Index.html">
             <button id = "backButton" class="layButton">[seta]</button>   
         </a>
     </header>
     <div>
         <ul>
-            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nulla nam enim, nesciunt asperiores ipsam ab necessitatibus veniam ex quaerat fuga praesentium reprehenderit ullam distinctio fugiat, deleniti minima voluptatem. Autem fugit praesentium
-            </p></li>
-            <li><img src="Assets/test/teste.gif" alt="Um relgógio que não para de girar representando a passagem de tempo"></li>
-            <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nulla nam enim, nesciunt asperiores ipsam ab necessitatibus veniam ex quaerat fuga praesentium reprehenderit ullam distinctio fugiat, deleniti minima voluptatem. Autem fugit praesentium
-            </p></li>
+            <li><p id="quote1"></p></li>
+            <li><img id="gifImage" src="" alt=""></li>
+            <li><p id="quote2"></p></li>
         </ul>
     </div>
-    <footer><a href="Info.html" target="_blank"><button style="font-size: 30px;" class="layButton" FontEx="font1">Eu gostaria de entender esse GIF, por favor &#129402</button></a></footer>
+    <footer><a href="Info.html" target="_blank"><button style="font-size: 30px;"  id="newTab" class="layButton" FontEx="font1">Eu gostaria de entender esse GIF, por favor &#129402</button></a></footer>
     
     <script src="Logic/LayoutControlle.js" defer></script>
+    <script src="Logic/Application.js" defer></script>
     <script>
         document.addEventListener('DOMContentLoaded', function(){
             layoutController.setClone(); 
-            layoutController.changeButtonFont();           
-        })
+            layoutController.changeButtonFont();
+            gifController.gifInit();         
+        });
+        document.getElementById('funbutton').addEventListener('click', function(){
+            gifController.changeGif();
+        });
     </script>
 </body>
 </html>
